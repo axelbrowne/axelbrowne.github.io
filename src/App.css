@@ -1,3 +1,15 @@
+:root {
+  --white: #cfcfcf;
+  --black: #131313;
+  --pink: #ff0050;
+  --header: 'Courier New', Courier, monospace;
+  --header-height: 85px;
+}
+
+body {
+  background-color: var(--black);
+}
+
 .App {
   text-align: center;
 }

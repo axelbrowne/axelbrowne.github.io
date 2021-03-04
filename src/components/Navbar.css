@@ -1,0 +1,146 @@
+.navbar {
+  background: linear-gradient(90deg, rgb(19, 19, 19) 0%, rgb(19, 19, 19) 100%);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-container {
+  width:100%;
+  height: var(--header-height);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.logo-container {
+  width: 50vw;
+  display: flex;
+  align-items: center;
+  margin: right 10px left 30px;
+}
+
+.logo {
+  color: #fff;
+  min-width: 20%;
+  max-width: 100%;
+  justify-self: start;
+  margin-left: 30px;
+  margin-right: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  font-size: 2rem;
+  font-family: var(--header);
+  font-weight: bold;
+  color: #cfcfcf
+}
+
+.logo:hover {
+  /* color: var(--pink); */
+  transition: all 0.2s ease;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 15px;
+  list-style: none;
+  width: 50vw;
+  margin-right: 40px;
+  justify-content: right;
+  justify-items: right;
+  align-content: right;
+}
+
+.nav-item {
+  font-family: var(--header);
+  font-size: 22px;
+  height: 35px;
+  margin-left: 10px;
+}
+
+.nav-link {
+  color: #cfcfcf;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-bottom: 0px solid var(--pink);
+
+}
+
+.nav-link:hover {
+  /* color: #999; */
+  border-bottom: 2px solid var(--pink);
+  /* transition: all 0.1s ease-out; */
+}
+
+.nav-link-mobile {
+  display: none;
+}
+
+.mobile-nav-menu {
+  display: none;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-menu {
+    display: none;
+  }
+
+  .mobile-nav-menu {
+    visibility: hidden;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    list-style: none;
+    height: auto;
+    max-height:0;
+    margin-top: -16px;
+    transition: max-height 0.2s ease;
+  }
+
+  .mobile-nav-menu.active {
+    visibility: visible;
+    overflow: hidden;
+    margin: 0px;
+    max-height: 500px;
+    padding: 15px;
+    background-color: var(--black);
+    /* background-color: rgb(37,37,37); */
+    transition: max-height 0.4s;
+    transition-timing-function: ease;
+  }
+
+  .nav-item {
+    font-size: 28px;
+    height: 55px;
+    padding: 2px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .nav-link {
+    color: #cfcfcf;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .nav-link:hover {
+    border-bottom: 2px solid var(--pink);
+    /* transition: border-bottom 0.2s ease; */
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-72%, 30%);
+  }
+}
