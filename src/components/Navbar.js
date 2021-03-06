@@ -1,6 +1,5 @@
 import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
-import logo from '../images/logo.png'
 import { Sling as Hamburger } from 'hamburger-react'
 import './Navbar.css'
 import { Button } from './Button'

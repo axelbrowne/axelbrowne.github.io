@@ -1,13 +1,20 @@
 :root {
-  --white: #cfcfcf;
-  --black: #131313;
-  --pink: #ff0050;
+  --primary: #131313;
+  --secondary: #cfcfcf;
+  --accent: #9D458D;
+  /* --accent: rgb(255,0,80); */
   --header: 'Courier New', Courier, monospace;
   --header-height: 85px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+:root::-webkit-scrollbar {
+  display: none;
 }
 
 body {
-  background-color: var(--black);
+  background-color: var(--primary);
 }
 
 .App {
@@ -47,4 +54,17 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+.page-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.content-wrap {
+  flex: 1;
+}
+
+::selection {
+  color: var(--accent);
 }

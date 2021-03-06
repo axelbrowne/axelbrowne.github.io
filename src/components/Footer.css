@@ -1,0 +1,59 @@
+.footer-main {
+  margin: 0;
+  padding: 0;
+}
+
+.footer-container {
+  background-color: var(--primary);
+  background-image: linear-gradient(calc(white + var(--accent)) 0%, var(--primary) 60%);
+  border-radius: 50%;
+  margin: auto;
+  width: 50%;
+  border-top: 1px solid var(--accent);
+  color: var(--secondary);
+  box-sizing: border-box;
+}
+
+.button-links {
+  text-align: center;
+  margin: 0;
+  position: relative;
+  transform: translate(0%, 40%);
+}
+
+.icon {
+  font-size: 200%;
+  padding: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: var(--secondary);
+}
+
+.icon:hover {
+  transition: all 0.35s ease;
+  cursor: pointer;
+}
+
+.mail:hover {
+  color: var(--accent);
+}
+
+.linkedin:hover {
+  color: #0e76a8;
+}
+
+.instagram:hover {
+  color: #C13584;
+}
+
+.spotify:hover {
+  color: #1DB954;
+}
+
+.github:hover {
+  color: #0366d6;
+}
+
+.MuiIconButton-disableRipple {
+  disableRipple: true;
+}
