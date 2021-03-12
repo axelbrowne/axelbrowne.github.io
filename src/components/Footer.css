@@ -1,4 +1,4 @@
-.footer-main {
+.footer {
   margin: 0;
   padding: 0;
 }
@@ -30,11 +30,13 @@
 }
 
 .icon:hover {
+  color: var(--accent);
   transition: all 0.35s ease;
   cursor: pointer;
+  transform: scale(0.95);
 }
 
-.mail:hover {
+/* .mail:hover {
   color: var(--accent);
 }
 
@@ -52,7 +54,7 @@
 
 .github:hover {
   color: #0366d6;
-}
+} */
 
 .MuiIconButton-disableRipple {
   disableRipple: true;

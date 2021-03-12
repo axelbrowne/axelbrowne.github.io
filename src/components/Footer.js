@@ -14,7 +14,7 @@ import { IconButton } from '@material-ui/core';
 
 function Footer() {
   return (
-    <div className="footer-main">
+    <div className="footer">
       {/* <hr /> */}
       <div className="footer-container">
           {/* <p>

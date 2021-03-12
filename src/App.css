@@ -1,7 +1,8 @@
 :root {
   --primary: #131313;
+  /* --primary: #282C35; */
   --secondary: #cfcfcf;
-  --accent: #9D458D;
+  --accent: #C13584;
   /* --accent: rgb(255,0,80); */
   --header: 'Courier New', Courier, monospace;
   --header-height: 85px;

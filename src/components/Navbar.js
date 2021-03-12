@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react'
 import {Link} from 'react-router-dom'
 import { Sling as Hamburger } from 'hamburger-react'
 import './Navbar.css'
-import { Button } from './Button'
+import resume from '../docs/resume.pdf'
 
 function Navbar() {
   const [click, setClick] = useState(false)
@@ -29,9 +29,9 @@ function Navbar() {
               </Link>
             </li>
             <li className='nav-item'>
-              <Link to='/Services' className='nav-link' onClick={closeMobileMenu}>
-                résumé
-              </Link>
+              <a href={resume} target="_blank" className='nav-link' onClick={closeMobileMenu}>
+              résumé
+              </a>
             </li>
             <li className='nav-item'>
               <Link to='/Connect' className='nav-link' onClick={closeMobileMenu}>
