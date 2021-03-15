@@ -1,6 +1,7 @@
 import React from 'react'
 import '../../App.css'
 import './Home.css'
+import Footer from '../../components/Footer'
 import portrait from '../../images/portrait.jpg'
 
 function Home() {
@@ -11,18 +12,21 @@ function Home() {
           <img src={portrait}/>
         </div>
         <div className="intro-text">
-          <p>
+          <h2>hi, i'm damián</h2>
+          <p>Computer Science undergrad
+            <br/>@ Loyola Marymount University</p>
+          {/* <p>
             Computer Science undergrad
             <br/>@ Loyola Marymount University
-            {/* <br/>in Los Angeles, CA */}
           </p>
           <p>
             Passionate about creating software to improve our understanding of the world
-          </p>
+          </p> */}
         </div>
       </div>
       <div className="projects-container">
       </div>
+      <Footer/>
     </div>
   )
 }

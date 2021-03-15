@@ -3,8 +3,10 @@
   /* --primary: #282C35; */
   --secondary: #cfcfcf;
   --accent: #C13584;
+  --accent2: #63A3D2;
   /* --accent: rgb(255,0,80); */
-  --header: 'Courier New', Courier, monospace;
+  --primary-font: "Menlo";
+  /* --header: 'Courier New', Courier, monospace; */
   --header-height: 85px;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -16,56 +18,43 @@
 
 body {
   background-color: var(--primary);
+  font-family: var(--primary-font);
 }
 
-.App {
-  text-align: center;
+@font-face {
+  font-family: Menlo;
+  src: url(./fonts/Menlo-Regular.woff);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.left-panel {
+  margin: auto;
+  margin-top: calc(75px + 1vh);
+  float: left;
+  width: 40%;
+  position: fixed;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-.page-container {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-.content-wrap {
-  flex: 1;
+.right-panel {
+  margin-top: calc(75px + 1vh);
+  float: right;
+  width: 64%;
 }
 
 ::selection {
   color: var(--accent);
+  /* background-color: var(--accent2); */
+}
+
+@media screen and (max-width: 960px) {
+  .left-panel {
+    margin-top: calc(75px + 1vh);
+    float: none;
+    position: relative;
+    width:100%;
+  }
+  .right-panel {
+    margin-top: 0px;
+    float: none;
+    width: 100%;
+  }
 }

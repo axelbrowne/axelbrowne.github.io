@@ -1,15 +1,16 @@
 .footer {
-  margin: 0;
+  margin: 0px;
   padding: 0;
 }
 
 .footer-container {
   background-color: var(--primary);
   background-image: linear-gradient(calc(white + var(--accent)) 0%, var(--primary) 60%);
-  border-radius: 50%;
+  /* border-radius: 50%; */
   margin: auto;
-  width: 50%;
-  border-top: 1px solid var(--accent);
+  /* width: 60%; */
+  width: 100%;
+  /* border-top: 1px solid var(--accent); */
   color: var(--secondary);
   box-sizing: border-box;
 }
@@ -18,7 +19,7 @@
   text-align: center;
   margin: 0;
   position: relative;
-  transform: translate(0%, 40%);
+  /* transform: translate(0%, 40%); */
 }
 
 .icon {

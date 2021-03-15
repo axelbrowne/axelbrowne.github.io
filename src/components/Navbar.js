@@ -24,7 +24,7 @@ function Navbar() {
           </div>
           <ul className='nav-menu'>
             <li className='nav-item'>
-              <Link to='/Projects' className='nav-link' onClick={closeMobileMenu}>
+              <Link to='/' className='nav-link' onClick={closeMobileMenu}>
                 projects
               </Link>
             </li>
@@ -33,30 +33,28 @@ function Navbar() {
               résumé
               </a>
             </li>
-            <li className='nav-item'>
-              <Link to='/Connect' className='nav-link' onClick={closeMobileMenu}>
-                connect
-              </Link>
-            </li>
           </ul>
         </div>
       </nav>
       <div>
+        <div className='logo-container'>
+          <Link to="/" className='logo'>
+            damián browne
+          </Link>
+        </div>
+        <div className='menu-icon' onClick={handleClick}>
+          <Hamburger toggled={click} toggle={setClick} color='#fff'/>
+        </div>
         <ul className={click ? 'mobile-nav-menu active' : 'mobile-nav-menu'}>
           <li className='nav-item'>
-            <Link to='/Projects' className='nav-link' onClick={closeMobileMenu}>
+            <Link to='/' className='nav-link' onClick={closeMobileMenu}>
               projects
             </Link>
           </li>
           <li className='nav-item'>
-            <Link to='/Resume' className='nav-link' onClick={closeMobileMenu}>
+            <a href={resume} target="_blank" className='nav-link' onClick={closeMobileMenu}>
               résumé
-            </Link>
-          </li>
-          <li className='nav-item'>
-            <Link to='/Connect' className='nav-link' onClick={closeMobileMenu}>
-              connect
-            </Link>
+            </a>
           </li>
         </ul>
       </div>

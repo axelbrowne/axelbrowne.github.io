@@ -5,6 +5,7 @@ import Home from './components/pages/Home'
 import Navbar from './components/Navbar'
 import Footer from  './components/Footer'
 import Resume from './components/pages/Resume'
+import Projects from './components/pages/Projects'
 
 function App() {
   return (
@@ -13,12 +14,11 @@ function App() {
         <Router>
         <Navbar/>
           <Switch>
-            <Route path='/' exact component={Home} />
+            <Route path='/' exact component={Projects} />
             <Route path='/resume' exact component={Resume} />
           </Switch>
         </Router>
       </div>
-      <Footer/>
     </div>
   );
 }
