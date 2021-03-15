@@ -42,7 +42,7 @@ function Projects() {
           <h6 className="proj-lang">HTML</h6>
           <h6 className="proj-lang">CSS</h6>
           <h6 className="proj-lang">JavaScript</h6>
-          <h6 className="proj-lib">React.js</h6>
+          <h6 className="proj-lib">React</h6>
           <FaGithub className="gh"/>
         </a>
       </div>
