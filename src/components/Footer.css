@@ -5,10 +5,8 @@
 
 .footer-container {
   background-color: var(--primary);
-  background-image: linear-gradient(calc(white + var(--accent)) 0%, var(--primary) 60%);
   /* border-radius: 50%; */
   margin: auto;
-  /* width: 60%; */
   width: 100%;
   /* border-top: 1px solid var(--accent); */
   color: var(--secondary);
