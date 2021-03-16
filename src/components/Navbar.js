@@ -52,7 +52,12 @@ function Navbar() {
         </div>
         <ul className={click ? 'mobile-nav-menu active' : 'mobile-nav-menu'}>
           <li className='nav-item'>
-            <Link to='/' className='nav-link' onClick={closeMobileMenu}>
+              <Link to='/about' className='nav-link' onClick={closeMobileMenu}>
+                about
+            </Link>
+          </li>
+          <li className='nav-item'>
+            <Link to='/projects' className='nav-link' onClick={closeMobileMenu}>
               projects
             </Link>
           </li>

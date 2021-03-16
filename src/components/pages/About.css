@@ -1,7 +1,6 @@
 .about {
   /* margin: auto; */
   margin-left: 0.5em;
-  padding: 0;
   width: 85%;
 }
 
@@ -18,4 +17,11 @@
 .intext-link:hover {
   color: #1DB954;
   text-decoration: underline;
+}
+
+@media screen and (max-width: 960px) {
+  .about {
+    margin: auto;
+    width: 85%;
+  }
 }

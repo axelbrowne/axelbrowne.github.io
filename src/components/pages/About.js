@@ -22,7 +22,7 @@ function About() {
             and demonstrations of properties of physics in middle and high school.
             My programming interests have grown to include data science and AI.
 
-            <br/><br/>I believe software's greatest super-power is it's ability to give
+            <br/><br/>I believe software's greatest power is it's ability to give
             us a better understanding of our world.
 
             <br/><br/>When I'm not writing code, I love to listen

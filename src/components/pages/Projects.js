@@ -35,7 +35,7 @@ function Projects() {
             <FaGithub className="gh"/>
           </a>
           <a href="https://github.com/damianbrowne/portfolio-website" target="_blank" rel="noreferrer" className="proj-card">
-            <h3 className="proj-title">my-website</h3>
+            <h3 className="proj-title">damianbrowne.github.io</h3>
             <p className="proj-desc">
               A personal/portfolio website created using React.
             </p>
