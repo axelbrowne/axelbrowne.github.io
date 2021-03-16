@@ -2,6 +2,7 @@
   --primary: #131313;
   /* --primary: #282C35; */
   --secondary: #cfcfcf;
+  --gray: rgb(156, 157, 161);
   --accent: #C13584;
   --accent2: #63A3D2;
   /* --accent: rgb(255,0,80); */
@@ -21,6 +22,10 @@ body {
   font-family: var(--primary-font);
 }
 
+h1 {
+  color: var(--secondary);
+}
+
 @font-face {
   font-family: Menlo;
   src: url(./fonts/Menlo-Regular.woff);
@@ -28,14 +33,14 @@ body {
 
 .left-panel {
   margin: auto;
-  margin-top: calc(75px + 1vh);
+  margin-top: calc(var(--header-height) + 1.5vh);
   float: left;
   width: 40%;
   position: fixed;
 }
 
 .right-panel {
-  margin-top: calc(75px + 1vh);
+  margin-top: calc(var(--header-height)  + 1.5vh);
   float: right;
   width: 64%;
 }

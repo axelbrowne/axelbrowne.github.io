@@ -23,9 +23,9 @@
 }
 
 .icon {
-  font-size: 200%;
-  padding: 25px;
-  padding-top: 5px;
+  font-size: 2em;
+  padding: 0.7em;
+  padding-top: 0px;
   padding-bottom: 5px;
   color: var(--secondary);
 }

@@ -1,6 +1,6 @@
 .projects {
-  margin: auto;
-  /* margin-left: 5px; */
+  /* margin: auto; */
+  margin-left: 0.5em;
   padding: 0;
   width: 95%;
 }
@@ -27,26 +27,27 @@
 }
 
 .proj-desc {
-  color: rgb(156, 157, 161);
+  color: var(--gray);
 }
 
 .proj-lang {
-  text-transform: uppercase;
+  margin: 0;
+  margin-right: 12px;
+  display: inline-block;
+  font-size: 0.85em;
+  font-weight: bold;
+  letter-spacing: 0.02em;
   color: var(--accent);
 }
 
 .proj-lib {
-  /* text-transform: uppercase; */
-  color: var(--accent2);
-}
-
-h6 {
   margin: 0;
-  margin-right: 15px;
+  margin-right: 12px;
   display: inline-block;
-  font-size: 0.8em;
+  font-size: 0.85em;
   font-weight: bold;
   letter-spacing: 0.02em;
+  color: var(--accent2);
 }
 
 .gh {

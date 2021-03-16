@@ -13,18 +13,8 @@ function Home() {
         </div>
         <div className="intro-text">
           <h2>hi, i'm damián</h2>
-          <p>Computer Science undergrad
-            <br/>@ Loyola Marymount University</p>
-          {/* <p>
-            Computer Science undergrad
-            <br/>@ Loyola Marymount University
-          </p>
-          <p>
-            Passionate about creating software to improve our understanding of the world
-          </p> */}
+          <h5>CS undergrad @ LMU</h5>
         </div>
-      </div>
-      <div className="projects-container">
       </div>
       <Footer/>
     </div>
