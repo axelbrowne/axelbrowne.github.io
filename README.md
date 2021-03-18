@@ -3,6 +3,6 @@
 
 
 ##### Some inspiration was taken from these CS portfolio websites:
+ - [nicoraymundo.com](http://nicoraymundo.com/)
  - [sirvar.com](https://sirvar.com/)
  - [peterleng.com](http://peterleng.com/)
- - [nicoraymundo.com](http://nicoraymundo.com/)
