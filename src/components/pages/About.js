@@ -22,8 +22,8 @@ function About() {
             and demonstrations of properties of physics in middle and high school.
             My programming interests have grown to include data science and AI.
 
-            <br/><br/>I believe software's greatest power is it's ability to give
-            us a better understanding of our world.
+            {/* <br/><br/>I believe software's greatest power is it's ability to give
+            us a better understanding of our world. */}
 
             <br/><br/>When I'm not writing code, I love to listen
             to <a className="intext-link" href="https://open.spotify.com/user/1279758953?si=2he-hlfXROK33CZ-xjgbDA" target="_blank" rel="noreferrer">music</a> and
