@@ -13,6 +13,20 @@ function Projects() {
       </div>
       <div className="right-panel">
         <div className="projects">
+          <a href="https://github.com/damianbrowne/ladder-of-transportability" target="_blank" rel="noreferrer" className="proj-card">
+            <h3 className="proj-title">Causal RL Agent Communication, Transportability Across Heterogenous Environments</h3>
+            <p className="proj-desc">
+              A program that models the effectiveness of different communication (and data 
+              adjustment/filtering) policies between agents from heterogenous environments. 
+              The simulation encoporates novel techniques in data transportability from causal inference.
+            </p>
+            <h6 className="proj-lang">Python</h6>
+            <h6 className="proj-lib">CausalGraphicalModels</h6>
+            <h6 className="proj-lib">Matplotlib</h6>
+            <h6 className="proj-lib">NetworkX</h6>
+            <h6 className="proj-lib">multiprocessing</h6>
+            {/* <FaGithub className="gh" /> */}
+          </a>
           <a href="https://github.com/damianbrowne/pucksim" target="_blank" rel="noreferrer" className="proj-card">
             <h3 className="proj-title">PuckSim</h3>
             <p className="proj-desc">
@@ -35,13 +49,13 @@ function Projects() {
             <FaGithub className="gh"/>
           </a>
           <a href="https://github.com/damianbrowne/portfolio-website" target="_blank" rel="noreferrer" className="proj-card">
-            <h3 className="proj-title">damianbrowne.github.io</h3>
+            <h3 className="proj-title">This website</h3>
             <p className="proj-desc">
-              A personal/portfolio website created using React.
+              A personal portfolio website built in React.
             </p>
+            <h6 className="proj-lang">JavaScript</h6>
             <h6 className="proj-lang">HTML</h6>
             <h6 className="proj-lang">CSS</h6>
-            <h6 className="proj-lang">JavaScript</h6>
             <h6 className="proj-lib">React</h6>
             <FaGithub className="gh"/>
           </a>
