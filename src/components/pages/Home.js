@@ -12,7 +12,7 @@ function Home() {
           <img src={portrait}/>
         </div>
         <div className="intro-text">
-          <h2>hi, i'm damián</h2>
+          <h2>hi, i'm Axel</h2>
           <h5>CS undergrad @ LMU</h5>
         </div>
       </div>

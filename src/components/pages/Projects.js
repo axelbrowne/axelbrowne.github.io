@@ -13,8 +13,8 @@ function Projects() {
       </div>
       <div className="right-panel">
         <div className="projects">
-          <a href="https://github.com/damianbrowne/ladder-of-transportability" target="_blank" rel="noreferrer" className="proj-card">
-            <h3 className="proj-title">Causal RL Agent Communication, Transportability Across Heterogenous Environments</h3>
+          <a href="https://github.com/axelbrowne/ECS4TOMAE" target="_blank" rel="noreferrer" className="proj-card">
+            <h3 className="proj-title">Exploiting Causal Structure for Transportability in Online, Multi-Agent Environments</h3>
             <p className="proj-desc">
               A program that models the effectiveness of different communication (and data 
               adjustment/filtering) policies between agents from heterogenous environments. 
@@ -27,7 +27,7 @@ function Projects() {
             <h6 className="proj-lib">multiprocessing</h6>
             {/* <FaGithub className="gh" /> */}
           </a>
-          <a href="https://damianbrowne.github.io/Speare-Website/#/" target="_blank" rel="noreferrer" className="proj-card">
+          <a href="https://axelbrowne.github.io/Speare-Website/#/" target="_blank" rel="noreferrer" className="proj-card">
             <h3 className="proj-title">Speare</h3>
             <p className="proj-desc">
               A programming language and compiler inspired by Shakespearean English.
@@ -38,7 +38,7 @@ function Projects() {
               <FaGithub className="gh" />
             </a>
           </a>
-          <a href="https://github.com/damianbrowne/portfolio-website" target="_blank" rel="noreferrer" className="proj-card">
+          <a href="https://github.com/axelbrowne/portfolio-website" target="_blank" rel="noreferrer" className="proj-card">
             <h3 className="proj-title">This website</h3>
             <p className="proj-desc">
               A personal portfolio website built in React.
@@ -49,7 +49,7 @@ function Projects() {
             <h6 className="proj-lib">React</h6>
             <FaGithub className="gh" />
           </a>
-          <a href="https://github.com/damianbrowne/FASim-NFAConverter" target="_blank" rel="noreferrer" className="proj-card">
+          <a href="https://github.com/axelbrowne/FASim-NFAConverter" target="_blank" rel="noreferrer" className="proj-card">
             <h3 className="proj-title">Finite Automata Sim and NFA -> DFA Converter</h3>
             <p className="proj-desc">
               Implements fundamentals of theory of computation to simulate the construction and
@@ -59,7 +59,7 @@ function Projects() {
             <h6 className="proj-lang">Java</h6>
             <FaGithub className="gh" />
           </a>
-          <a href="https://github.com/damianbrowne/pucksim" target="_blank" rel="noreferrer" className="proj-card">
+          <a href="https://github.com/axelbrowne/pucksim" target="_blank" rel="noreferrer" className="proj-card">
             <h3 className="proj-title">PuckSim</h3>
             <p className="proj-desc">
               Model of the multi-generational genetic evolution of tadpole-resembling "puck" agents.
