@@ -8,7 +8,7 @@
   /* --accent: rgb(255,0,80); */
   --primary-font: "Menlo";
   /* --header: 'Courier New', Courier, monospace; */
-  --header-height: 85px;
+  --header-height: 60px;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -29,19 +29,6 @@ h1 {
 @font-face {
   font-family: Menlo;
   src: url(./fonts/Menlo-Regular.woff);
-}
-
-.left-panel {
-  /* margin: auto; */
-  margin-top: calc(var(--header-height) + 1.5vh);
-  float: left;
-  width: 40%;
-}
-
-.right-panel {
-  margin-top: calc(var(--header-height)  + 1.5vh);
-  float: right;
-  width: 60%;
 }
 
 ::selection {

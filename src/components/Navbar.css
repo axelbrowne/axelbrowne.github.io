@@ -2,7 +2,8 @@
   background: var(--primary);
   /* background: linear-gradient(90deg, rgb(19, 19, 19) 0%, rgb(19, 19, 19) 100%); */
   width: 100%;
-  padding-top: 3px;
+  padding-top: 1px;
+  background-color: blue;
   display: flex;
   justify-content: space-between;
   position: fixed;

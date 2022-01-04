@@ -5,7 +5,7 @@ import Main from './components/pages/Main'
 import Navbar from './components/Navbar'
 import Projects from './components/pages/Projects'
 import About from './components/pages/About'
-import Home from './components/pages/Home'
+// import Home from './components/pages/Home'
 
 function App() {
   return (

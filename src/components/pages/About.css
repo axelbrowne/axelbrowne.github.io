@@ -1,7 +1,11 @@
 .about {
+  width:60%;
+  display: inline-block;
   /* margin: auto; */
+  height: 50vh;
+  background-color  : green;
   margin-left: 0.5em;
-  width: 85%;
+  /* width: 95%; */
 }
 
 .abt-body {

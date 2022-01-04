@@ -1,13 +1,15 @@
 import React from 'react'
 import Navbar from '../../components/Navbar'
-import About from '../../components/pages/About'
+import Footer from '../../components/Footer'
+import FirstPage from '../../components/pages/FirstPage'
 import Projects from '../../components/pages/Projects'
 
 function Main() {
     return (
         <>
             <Navbar />
-            <About/>
+            <FirstPage/>
+            <Footer/>
             <Projects/>
         </>
     )

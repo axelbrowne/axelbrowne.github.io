@@ -1,0 +1,24 @@
+.first-page{
+    /* padding: 5px; */
+    display: inline-flex;
+    margin: auto;
+    background-color: teal;
+    width:100vw;
+    height:100vh;
+}
+
+.left-panel {
+  /* margin: auto; */
+  margin-top: var(--header-height);
+  float: left;
+  width: 40%;
+  /* display: flexbox; */
+  /* margin: auto; */
+    
+}
+
+.right-panel {
+  margin-top: var(--header-height);
+  float: right;
+  width: 60%;
+}
