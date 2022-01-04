@@ -32,17 +32,16 @@ h1 {
 }
 
 .left-panel {
-  margin: auto;
+  /* margin: auto; */
   margin-top: calc(var(--header-height) + 1.5vh);
   float: left;
   width: 40%;
-  position: fixed;
 }
 
 .right-panel {
   margin-top: calc(var(--header-height)  + 1.5vh);
   float: right;
-  width: 64%;
+  width: 60%;
 }
 
 ::selection {
