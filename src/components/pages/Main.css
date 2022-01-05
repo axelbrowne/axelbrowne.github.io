@@ -1,0 +1,18 @@
+.main {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    /* background-color: red; */
+}
+.left {
+    background-color: blue;
+    /* display: flex; */
+    width: 10%;
+    float: left;
+    /* flex-grow: 4; */
+}
+.right {
+    width: 90%;
+    display: inline;
+    float: right;
+}

@@ -6,6 +6,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 
 .intro-container {
@@ -28,10 +29,25 @@
 }
 
 .intro-image img {
-  width: 45%;
+  width: 80%;
   height: auto;
   border-radius: 0.25em;
+  /* transform: translateY(0px); */
+  /* animation: downUp 1.5s ease-in-out; */
 }
+/* 
+@keyframes upDown {
+  from {transform: translateY(0px);}
+  to {transform: translateY(var(--portrait-y));}
+}
+
+@keyframes downUp {
+  to {transform: translateY(0px)}
+}
+
+.intro-image img:hover {
+  animation: upDown 1.5s alternate infinite ease-in-out;
+} */
 
 @media screen and (max-width: 960px) {
   .home {

@@ -6,16 +6,16 @@ import Home from './Home.js'
 
 function About() {
   return (
-    <>
+    <div className='first'>
       <div className="left-panel">
         <Home/>
       </div>
       <div className="right-panel">
         <div className="about">
-          <h1>About me</h1>
+          <h1>hi, I'm Axel</h1>
           <p className="abt-body">
-            I am a software developer from Santa Fe, NM. This year, I will be 
-            in my fourth year studying computer science at Loyola Marymount University 
+            I am a software developer from Santa Fe, NM in my fourth year studying 
+            computer science at Loyola Marymount University 
             in Los Angeles, CA.
             <br/><br/>
             At LMU, I have continued to pursue my passion for programming
@@ -30,7 +30,7 @@ function About() {
           </p>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

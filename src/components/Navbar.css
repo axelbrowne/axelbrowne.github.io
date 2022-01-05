@@ -1,38 +1,60 @@
 .navbar {
-  background: var(--primary);
+  background-color: var(--primary);
   /* background: linear-gradient(90deg, rgb(19, 19, 19) 0%, rgb(19, 19, 19) 100%); */
-  width: 100%;
+  /* width: 100%; */
   padding-top: 3px;
-  display: flex;
-  justify-content: space-between;
-  position: fixed;
+  justify-content: center;
+  /* justify-content: space-between; */
+  /* position: fixed; */
   z-index: 1;
 }
 
 .navbar-container {
-  width:100%;
+  /* width:100%; */
   height: var(--header-height);
-  display: flex;
-  flex-direction: row;
+  display: inline;
+  /* flex-direction: column; */
   align-items: center;
+  justify-content: center;
 }
 
 .logo-container {
-  width: 50vw;
-  display: flex;
+  position: relative;
+  background-color: rgb(202, 140, 26);
+  margin: auto;
+  width: auto;
+  display: block;
+  /* height: 200px; */
+  /* padding-top: 25%;
+  padding-bottom: 25%; */
+  justify-content: center;
+  align-items: center;
+
+}
+
+.logo-circle {
+  margin: auto;
+  /* position: relative; */
+  background-color: purple;
+  border-radius: 25%;
+  height: 90px;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
 .logo {
   color: var(--secondary);
-  min-width: 20%;
-  max-width: 100%;
-  justify-self: start;
-  margin-left: 30px;
-  margin-right: 10px;
+  /* position: absolute; */
+  /* margin: auto; */
   cursor: pointer;
   text-decoration: none;
   font-size: 2rem;
   font-weight: bold;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
 
 .logo:hover {
@@ -42,24 +64,24 @@
 
 .nav-menu {
   display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 15px;
-  list-style: none;
-  width: 50vw;
-  margin-right: 40px;
-  justify-content: right;
-  justify-items: right;
-  align-content: right;
+  grid-template-columns: repeat(auto, 3);
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
 }
 
 .nav-item {
+  margin: 10px;
+  width: 100%;
   font-size: 22px;
-  height: 35px;
-  margin-left: 10px;
+  /* height: 35px; */
+  /* margin-left: 10px; */
 }
 
 .nav-link {
   display: inline;
+  text-align: center;
   position: relative;
   overflow: hidden;
   color: var(--secondary);
@@ -70,7 +92,7 @@
 .nav-link:after {
   content: "";
   position: absolute;
-  z-index: -1;
+  z-index: 1;
   right: 0;
   width: 0;
   bottom: -5px;

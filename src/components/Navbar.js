@@ -15,36 +15,38 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <div className='logo-container'>
-            <Link to="/" className='logo'>
-              Axel Browne
-            </Link>
+            <div className='logo-circle'>
+              <Link to="/" className='logo'>
+                Ax
+              </Link>
+            </div>
           </div>
           <div className='menu-icon' onClick={handleClick}>
             <Hamburger toggled={click} toggle={setClick} color='#fff'/>
           </div>
-          <ul className='nav-menu'>
-            <li className='nav-item'>
+          <div className='nav-menu'>
+            <div className='nav-item'>
               <Link to='/about' className='nav-link' onClick={closeMobileMenu}>
                 about
               </Link>
-            </li>
-            <li className='nav-item'>
+            </div>
+            <div className='nav-item'>
               <Link to='/projects' className='nav-link' onClick={closeMobileMenu}>
                 projects
               </Link>
-            </li>
-            <li className='nav-item'>
+            </div>
+            <div className='nav-item'>
               <a href={resume} target="_blank" className='nav-link' rel="noreferrer" onClick={closeMobileMenu}>
               résumé
               </a>
-            </li>
-          </ul>
+            </div>
+          </div>
         </div>
       </nav>
-      <div>
+      {/* <div>
         <div className='logo-container'>
           <Link to="/" className='logo'>
-            Axel Browne
+            Ax
           </Link>
         </div>
         <div className='menu-icon' onClick={handleClick}>
@@ -67,7 +69,7 @@ function Navbar() {
             </a>
           </li>
         </ul>
-      </div>
+      </div> */}
     </>
   )
 }

@@ -13,13 +13,6 @@ function App() {
     <div className="page-container">
       <div className="content-wrap">
         <Main/>
-        {/* <Navbar/>
-        <Home/>
-        <Switch>
-          <Route path='/' exact component={About} />
-          <Route path='/projects' exact component={Projects} />
-          <Route path='/about' exact component={About} />
-        </Switch> */}
       </div>
     </div>
   </Router>
