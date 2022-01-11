@@ -1,0 +1,15 @@
+.logo-circle {
+    /* background-color: red; */
+    padding: 3% 0;
+    margin: 4% auto;
+    cursor: pointer;
+    border-radius: 100%;
+    width: 60%;
+}
+
+.logo {
+    margin: auto;
+    display: block;
+    width: 65%;
+    height: 100%;
+}

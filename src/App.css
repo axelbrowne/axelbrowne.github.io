@@ -38,17 +38,3 @@ h1 {
   color: var(--accent);
   /* background-color: var(--accent2); */
 }
-
-@media screen and (max-width: 960px) {
-  .left-panel {
-    margin-top: calc(75px + 1vh);
-    float: none;
-    position: relative;
-    width:100%;
-  }
-  .right-panel {
-    margin-top: 0px;
-    float: none;
-    width: 100%;
-  }
-}
