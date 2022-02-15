@@ -7,10 +7,14 @@
 }
 
 .navbar-container {
-  height: var(--header-height);
+  /* height: var(--header-height); */
   display: inline;
   align-items: center;
   justify-content: center;
+}
+
+.nav-bot {
+  background-color: red;
 }
 
 .logo-container {

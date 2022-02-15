@@ -9,8 +9,8 @@
   --primary-font: "Menlo";
   /* --header: 'Courier New', Courier, monospace; */
   --header-height: 85px;
-  --vertical-space: 45px;
-  --horizontal-space: 50px;
+  --vertical-space: 2em;
+  --horizontal-space: 2.1em;
   --portrait-y: 0px;
   -ms-overflow-style: none;
   scrollbar-width: none;
@@ -26,6 +26,7 @@ body {
 }
 
 h1 {
+  font-size: 1.7em;
   color: var(--secondary);
 }
 

@@ -1,5 +1,5 @@
 .footer {
-  margin: calc(var(--vertical-space)/2) calc(var(--vertical-space)/1) calc(var(--vertical-space)/2) calc(var(--vertical-space)/1);
+  margin: calc(var(--vertical-space)/1) 0;
   /* background-color: purple; */
 }
 

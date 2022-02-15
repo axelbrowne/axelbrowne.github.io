@@ -5,7 +5,7 @@ import portrait from '../../images/portrait.jpg'
 
 function Home() {
   return (
-    <div className="home" on>
+    <div className="home">
       <div className="intro-container">
         <div className="intro-image">
           <img src={portrait}/>

@@ -1,18 +1,28 @@
 .first {
+  margin: var(--vertical-space) 0;
+  padding: 0 var(--horizontal-space);
   display: flex;
-  /* background-color: green; */
-  margin: var(--vertical-space) var(--horizontal-space);
-  /* background-color: green; */
+  
+  flex-direction: column;
   justify-content: center;
-  /* height: 65vh; */
+  /* background-color: red; */
 }
 
-.left-panel {
+.abt-panels {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.abt-l {
+  /* background-color: blue; */
   float: left;
   width: 30%;
 }
 
-.right-panel {
+.abt-r {
+  /* background-color: red; */
   float: right;
   margin: auto;
   justify-content: center;
