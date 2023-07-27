@@ -44,7 +44,7 @@ function Navbar() {
       <div>
         <div className='logo-container'>
           <Link to="/" className='logo'>
-            Axel Browne
+            damián browne
           </Link>
         </div>
         <div className='menu-icon' onClick={handleClick}>
