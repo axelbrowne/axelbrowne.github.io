@@ -13,13 +13,15 @@ function About() {
         <div className="about">
           <h1>About me</h1>
           <p className="abt-body">
-            I am a computer scientist from Santa Fe, NM living in New York City.
+            I am a computer scientist from Santa Fe, NM. I now live in New York
+            City.
             <br />
             <br />
             My interest for programming began at age 10, when my grandpa and I
             would exchange code for our Pac-Man-inspired game via email. My
-            agent in agent-based modeling of social systems started during the
-            middle school science fair, propelled me to write{' '}
+            passion for agent-based modeling of social/eco-systems started
+            during the middle school science fair and eventually propelled me to
+            write{' '}
             <a
               className="intext-link"
               href="https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p199.pdf"
@@ -28,9 +30,10 @@ function About() {
             >
               my first paper
             </a>{' '}
-            with my favorite LMU professor Dr. Andrew Forney, and eventually
-            return to my home-state of New Mexico after graduation to do
-            computational epidemiology at Los Alamos National Labs.
+            with my favorite LMU professor Dr. Andrew Forney... which in turn
+            lead to me returning to my home-state of New Mexico after graduation
+            to do computational epidemiology at Los Alamos National Labs for the
+            past year.
             <br />
             <br />
             When I'm not writing code, I love to listen to{' '}
