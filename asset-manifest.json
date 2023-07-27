@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1247bb7d.css",
+    "main.js": "/static/js/main.717f8bd8.js",
+    "static/js/787.c374c844.chunk.js": "/static/js/787.c374c844.chunk.js",
+    "static/media/portrait.png": "/static/media/portrait.eef640a42c0249e45cf6.png",
+    "static/media/Menlo-Regular.woff": "/static/media/Menlo-Regular.02bb017483128058c0d0.woff",
+    "static/media/resume.pdf": "/static/media/resume.77568520d1f704876075.pdf",
+    "index.html": "/index.html",
+    "main.1247bb7d.css.map": "/static/css/main.1247bb7d.css.map",
+    "main.717f8bd8.js.map": "/static/js/main.717f8bd8.js.map",
+    "787.c374c844.chunk.js.map": "/static/js/787.c374c844.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1247bb7d.css",
+    "static/js/main.717f8bd8.js"
+  ]
+}
