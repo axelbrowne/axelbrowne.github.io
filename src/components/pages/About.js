@@ -1,37 +1,57 @@
-import React from 'react'
-import '../../App.css'
-import './About.css'
-import Home from './Home.js'
-
+import React from 'react';
+import '../../App.css';
+import './About.css';
+import Home from './Home.js';
 
 function About() {
   return (
     <>
       <div className="left-panel">
-        <Home/>
+        <Home />
       </div>
       <div className="right-panel">
         <div className="about">
           <h1>About me</h1>
           <p className="abt-body">
-            I am a software developer from Santa Fe, NM. This year, I will be 
-            in my fourth year studying computer science at Loyola Marymount University 
-            in Los Angeles, CA.
-            <br/><br/>
-            At LMU, I have continued to pursue my passion for programming
-            that began with creating agent-based models of ecosystems.
-            My programming interests have grown to include data science and AI.
-            <br/><br/>
-            When I'm not writing code, I love to listen to <a className="intext-link" href="https://open.spotify.com/user/1279758953?si=2he-hlfXROK33CZ-xjgbDA" target="_blank" rel="noreferrer">
-              music 
-            </a> and audiobooks, play basketball, eat almond butter, and enjoy the outdoors.
-            <br/><br/>
+            I am a computer scientist from Santa Fe, NM living in New York City.
+            <br />
+            <br />
+            My interest for programming began at age 10, when my grandpa and I
+            would exchange code for our Pac-Man-inspired game via email. My
+            agent in agent-based modeling of social systems started during the
+            middle school science fair, propelled me to write{' '}
+            <a
+              className="intext-link"
+              href="https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p199.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              my first paper
+            </a>{' '}
+            with my favorite LMU professor Dr. Andrew Forney, and eventually
+            return to my home-state of New Mexico after graduation to do
+            computational epidemiology at Los Alamos National Labs.
+            <br />
+            <br />
+            When I'm not writing code, I love to listen to{' '}
+            <a
+              className="intext-link"
+              href="https://open.spotify.com/user/1279758953?si=2he-hlfXROK33CZ-xjgbDA"
+              target="_blank"
+              rel="noreferrer"
+            >
+              music
+            </a>{' '}
+            and audiobooks, play basketball, ski, travel, and enjoy the
+            outdoors.
+            <br />
+            <br />
             Thanks for stopping by! :)
           </p>
         </div>
       </div>
     </>
-  )
+  );
 }
 
 export default About;
