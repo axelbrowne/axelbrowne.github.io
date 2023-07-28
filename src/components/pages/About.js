@@ -13,7 +13,7 @@ function About() {
         <div className="about">
           <h1>About me</h1>
           <p className="abt-body">
-            I am a computer scientist from Santa Fe, NM. I now live in New York
+            I am a computer scientist from Santa Fe. I now live in New York
             City.
             <br />
             <br />
